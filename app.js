@@ -6,7 +6,7 @@ setInterval(() => {
   selectImg >= imgList.length ? selectImg = 0 : selectImg;
   headerHero.style.backgroundImage = `url(./img/${imgList[selectImg]}.jpg)`;
   selectImg++
-}, 5000);
+}, 1000 * 10);
 
 // scroll to up
 window.addEventListener('scroll', () => {
